@@ -1,0 +1,1 @@
+Stock_Manager_Cosmetic

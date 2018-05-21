@@ -1,0 +1,23 @@
+#Bt_close {
+    border: 1px solid gray;
+    margin: 1px 1px 1px 1px;
+    color:  gray;
+}
+
+#Bt_close:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+#Bt_minimize {
+    border: 1px solid gray;
+    margin:1px;
+    color: gray;
+}
+
+#Bt_minimize:hover {
+    border: 1px solid orange;
+    margin: 1px;
+    color:  orange;
+}
+

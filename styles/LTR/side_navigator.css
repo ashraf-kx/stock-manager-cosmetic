@@ -1,0 +1,115 @@
+QFrame
+{
+    background-color: #FFFFFF;
+    border: none;
+    font-family:  "Titillium Web";
+}
+
+QWidget
+{
+    background-color: #FFFFFF;
+    border: none;
+    font-family:  "Titillium Web";
+}
+
+QToolBox
+{
+    border: none;
+}
+
+QPushButton
+{
+    position: relative;
+    padding-left: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font: 75 13pt "Titillium Web";
+
+    color: #212121;
+    background-color: #FFFFFF;
+
+    border: none;
+
+    vertical-align: middle;
+    text-align: left;
+}
+
+QPushButton:hover
+{
+    background-color: #FAFAFA;
+    color: #000000;
+    font: 75 13pt "Titillium Web";
+    font-weight: bold;
+
+}
+
+
+QToolBox::tab
+{
+    background-color: #424242;
+    color: #FFF;
+    border: none;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #FFF;
+    font: 75 14pt "Titillium Web";
+}
+
+QToolBox::tab:hover
+{
+    background-color: #616161;
+    color: white;
+    border-top: 1px solid #616161;
+    border-bottom: 1px solid #F44336;
+}
+
+QToolBox::tab:selected
+{
+    background-color: #212121;
+    color: white;
+    font-weight: bold;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #D50000;
+    padding-left: 8px;
+}
+
+/**************** Scroll Bar ******************/
+QScrollBar:horizontal {
+      border: none;
+      background: #FFF;
+      height: 2px;
+      margin: none;
+  }
+
+  QScrollBar::handle:horizontal {
+      background: #FFF;
+      min-width: 2px;
+      border:none;
+  }
+
+  QScrollBar::add-line:horizontal {
+      background: #FFF;
+      width: 2px;
+      subcontrol-position: right;
+      subcontrol-origin: margin;
+      border: none;
+  }
+
+  QScrollBar::sub-line:horizontal {
+      background: #FFF;
+      width: 2px;
+      subcontrol-position: top right;
+      subcontrol-origin: margin;
+      border: none;
+      position: absolute;
+      right: 2px;
+  }
+
+  QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+      width: 2px;
+      height: 2px;
+      background: none;
+  }
+
+  QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+      background: none;
+  }
